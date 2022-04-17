@@ -1,0 +1,29 @@
+.nav {
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  color: rgb(241, 241, 241);
+  background-color: #6968bd;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li a {
+  margin-right: 10px;
+  font-size: larger;
+  font-weight: 600;
+  transition: all 0.1s;
+}
+
+.nav ul li a:hover {
+  border-bottom: 1px solid;
+}
